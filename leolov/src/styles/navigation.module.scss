@@ -1,0 +1,24 @@
+
+.navStyle {
+    // width: 100%;
+    // height: 62px;
+    // align-items: left;
+    background-color:#FFFFFF; 
+    display: grid;
+    justify-items: start;
+
+    div {
+        margin: 12px;
+        // display: grid;
+        // justify-content: end;
+        // align-items: end;
+        // grid-template-columns: 1fr;
+        // width: 50%;
+        a {
+            color: #002BC2;
+            margin: 4px;
+            // text-align: left;
+        }
+    }
+}
+

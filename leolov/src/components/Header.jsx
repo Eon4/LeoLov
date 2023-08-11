@@ -6,9 +6,8 @@ export function Header(){
         <header>
             <h1>Leo-Lov</h1>
             <p>Lov og ret kan være et plaster! Hvis du ellers har knaster!</p>
-            <img src={HeaderImg} alt="header" />
+            <img className={style.Headerimg} src={HeaderImg} alt="header" />
 
         </header>
-
     )
 }

@@ -1,0 +1,12 @@
+.navStyle {
+  background-color: #FFFFFF;
+  display: grid;
+  justify-items: start;
+}
+.navStyle div {
+  margin: 12px;
+}
+.navStyle div a {
+  color: #002BC2;
+  margin: 5px;
+}/*# sourceMappingURL=navigation.module.css.map */

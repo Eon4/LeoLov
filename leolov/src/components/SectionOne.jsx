@@ -1,14 +1,14 @@
 import style from "../styles/sectionOne.module.scss";
+import sectiononeimg from  '../assets/images/sectionone.jpg'
+
 
 export function SectionOne() {
   return (
     <>
       <section>
-        <img
-          src="#"
-          alt="Person with a lot of monopoly cash and and expensive watch"
-        />
+            <img className={style.sectiononeimg} src={sectiononeimg} alt="#" />
         <article>
+
           <h2>Intet problem</h2>
           <p>
             Leo-lov har altid været det bedste advokatfirma i verden. Der er

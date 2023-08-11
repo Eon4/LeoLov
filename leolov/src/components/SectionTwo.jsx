@@ -1,4 +1,5 @@
 import style from "../styles/sectionTwo.module.scss";
+import sectiontwoimg from  '../assets/images/sectiontwo.jpg'
 
 export function SectionTwo() {
   return (
@@ -15,7 +16,7 @@ export function SectionTwo() {
             Det er sådan vi har skabt en forretning der ikke kan andet end at
             vokse!
           </p>
-          <img src="#" alt="Picture of a tall, black, glass building" />
+          <img className={style.sectiontwoimg} src={sectiontwoimg} alt="#" />
         </article>
       </section>
     </>

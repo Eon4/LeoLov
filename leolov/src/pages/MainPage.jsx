@@ -1,19 +1,19 @@
 import { Navigation } from "../components/navigation";
-import { Header } from '../components/Header';
-// import { Cards } from './component/cards/Cards';
-// import { Content } from './component/SectionOne';
-// import { Content } from './component/SectionTwo';
-// import { Footer } from './component/Footer';
+import { Header } from '../components/header';
+import { Cards } from '../components/cards';
+import { SectionOne } from '../components/sectionone';
+import { SectionTwo } from '../components/sectionTwo';
+import { Footer } from '../components/footer';
 
 export const MainPage = () => {
     return (
       <>
         <Navigation />
         <Header/>
-        {/* <Cards/>
-      <SectionOne/>
-      <SectionTwo/>
-      <Footer/> */}
+        <Cards/>
+        <SectionOne/>
+        <SectionTwo/>
+        <Footer/>
       </>
     );
   };

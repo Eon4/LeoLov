@@ -11,7 +11,8 @@
     display: grid; 
     grid-template-columns: 1fr 1fr; 
     gap: 16px; 
-    margin: 20px;
+    margin: 10px;
+    margin-top: 220px;
     border-color: #002BC2;
     border-width: 10px;
     border-style:solid;
@@ -20,7 +21,6 @@
         font-size: 20px;
         border: solid 2px white;
         text-align: center;
-        padding-top: 20px;
     }
 
     h2{

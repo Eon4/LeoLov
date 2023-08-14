@@ -2,9 +2,9 @@ import style from "../styles/cards.module.scss";
 
 export function Cards() {
   return (
-    <>
-      {/* <div class="container"> */}
-      <article class= "card">
+    <section className={style.cards}>
+      <div className={style.wrapper}>
+      <article>
         <h2>Familieret</h2>
         <p>
           Familieret er en ret alle har. Har du en familie har du sikkert ret
@@ -12,7 +12,6 @@ export function Cards() {
           vi desværre ikke hjælpe dig.
         </p>
       </article>
-      {/* </div> */}
       <article>
         <h2>Ejendomsret</h2>
         <p>
@@ -37,6 +36,7 @@ export function Cards() {
           ved en masse om dette så henvend dig i dag.
         </p>
       </article>
-    </>
+      </div>
+    </section>
   );
 }

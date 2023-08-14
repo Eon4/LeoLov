@@ -4,8 +4,10 @@ import sectiontwoimg from  '../assets/images/sectiontwo.jpg'
 export function SectionTwo() {
   return (
     <>
- <section>
+          <section className={style.gridCol}>
+
         <article>
+
           <h2>Her bor vi</h2>
           <p>
             Leo-lov har altid været det bedste advokatfirma i verden. Der er
@@ -16,8 +18,9 @@ export function SectionTwo() {
             Det er sådan vi har skabt en forretning der ikke kan andet end at
             vokse!
           </p>
-          <img className={style.sectiontwoimg} src={sectiontwoimg} alt="#" />
         </article>
+        <img className={style.sectiontwoimg} src={sectiontwoimg} alt="#" />
+
       </section>
     </>
   );

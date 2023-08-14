@@ -5,11 +5,13 @@ import sectiononeimg from  '../assets/images/sectionone.jpg'
 export function SectionOne() {
   return (
     <>
-      <section>
-            <img className={style.sectiononeimg} src={sectiononeimg} alt="#" />
-        <article>
+      <section className={style.gridCol}>
 
+            <img className={style.sectiononeimg} src={sectiononeimg} alt="#" />
+            
+        <article>
           <h2>Intet problem</h2>
+          
           <p>
             Leo-lov har altid været det bedste advokatfirma i verden. Der er
             simpelthen ingen der kan måle sig med os. Vi kan løse alle problemer
@@ -19,6 +21,7 @@ export function SectionOne() {
             Det er sådan vi har skabt en forretning der ikke kan andet end at
             vokse!
           </p>
+          
         </article>
       </section>
     </>

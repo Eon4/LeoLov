@@ -3,7 +3,7 @@ import style from "../styles/cards.module.scss";
 export function Cards() {
   return (
     <>
-      <div class="container">
+      {/* <div class="container"> */}
       <article class= "card">
         <h2>Familieret</h2>
         <p>
@@ -12,7 +12,7 @@ export function Cards() {
           vi desværre ikke hjælpe dig.
         </p>
       </article>
-      </div>
+      {/* </div> */}
       <article>
         <h2>Ejendomsret</h2>
         <p>

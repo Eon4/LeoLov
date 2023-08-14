@@ -1,13 +1,24 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Jura&display=swap");
 
-/* .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-} */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-family: 'Jura', sans-serif;
+  color: #002BC2;
+  font-weight: 400;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+span {
+  font-family: 'Jura', sans-serif;
+  color: #000000;
+  font-weight: 400;
+  font-size: 2rem;
+}

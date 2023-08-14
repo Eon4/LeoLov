@@ -9,6 +9,7 @@
 
     div {
         margin: 12px;
+        
         // display: grid;
         // justify-content: end;
         // align-items: end;
@@ -17,6 +18,10 @@
         a {
             color: #002BC2;
             margin: 5px;
+            border-right: 1px #002BC2 solid;
+            float: left;
+            padding: 0 5px;
+
             // text-align: left;
         }
     }

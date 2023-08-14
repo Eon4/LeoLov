@@ -9,4 +9,7 @@
 .navStyle div a {
   color: #002BC2;
   margin: 5px;
+  border-right: 1px #002BC2 solid;
+  float: left;
+  padding: 0 5px;
 }/*# sourceMappingURL=navigation.module.css.map */

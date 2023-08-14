@@ -1,8 +1,12 @@
 import style from "../styles/footer.module.scss";
+import iconface from '../assets/images/facelogo.svg';
+import iconlinked from '../assets/images/linkedinlogo.svg';
+
+
 
 export function Footer() {
   return (
-    <footer>
+    <footer className={style.autoFlow}>
       <article>
         <h2>Adresse</h2>
         <p>Find os her:</p>
@@ -31,9 +35,10 @@ export function Footer() {
       </article>
       <article>
         <h2>Sociale medier</h2>
-        <img src="#" alt="Logo/link to Facebook" />
-        <img src="#" alt="Logo/link to LinkedIn" />
+        <img className={style.iconfacebook} src={iconface} alt="Logo/link to Facebook" />
+        <img className={style.iconlinkedin} src={iconlinked} alt="Logo/link to LinkedIn" />
       </article>
     </footer>
   );
 }
+

@@ -1,5 +1,5 @@
 import { Navigation } from "../components/navigation";
-import { Header } from '../components/header';
+import { Header } from '../components/Header';
 import { Cards } from '../components/cards';
 import { SectionOne } from '../components/sectionone';
 import { SectionTwo } from '../components/sectionTwo';
